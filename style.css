@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quintessential&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgb(31, 168, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card {
+    height: 600px;
+    width: 380px;
+    background-color: #111;
+    border-radius: 10px;
+    border: 3px solid black;
+    position: relative;
+    overflow-y: auto;
+
+}
+.model #heart2 {
+    color: white;
+    font-size: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    opacity: 0;
+    transition: transform ease 0.5s;
+}
+#card::-webkit-scrollbar {
+    display: none;
+}
+.insta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+.insta i {
+    color: white;
+    font-size: 25px;
+    padding: 7px;
+}
+.insta h3 {
+    color: white;
+    font-weight: 100;
+    font-family: "Quintessential", serif;
+}
+#storiyan{
+    height: 120px;
+    width: 100%;
+    /* background-color: red; */
+    border-bottom: 1px solid #dadada;
+    padding: 15px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    color: white;
+}
+#storiyan::-webkit-scrollbar{
+    display: none;
+}
+.story {
+    /* background-color: blue; */
+    border: 2px solid red;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 5px;
+}
+.story img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#full-screen {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: none;
+}
+.model img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.signs {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    overflow: hidden;
+}
+.signs i {
+    font-size: 25px;
+    padding: 7px 5px;
+}
+.para {
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    line-height: 5px;
+}
+.urvashi{
+    color: white;
+    margin: 0px 15px;
+    margin-bottom: 5px;
+}
